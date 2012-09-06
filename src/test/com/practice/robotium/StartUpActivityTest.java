@@ -1,13 +1,12 @@
-package com.practice.atf.test;
-
+package com.practice.robotium;
 
 import android.test.ActivityInstrumentationTestCase2;
 import com.jayway.android.robotium.solo.Solo;
 
 @SuppressWarnings("unchecked")
-public class RobotiumActivityInstrumentation extends ActivityInstrumentationTestCase2 {
-    private static final String TARGET_PACKAGE_ID = "com.practice.atf.main";
-    private static final String LAUNCHER_ACTIVITY_FULL_CLASSNAME = "com.practice.atf.main.StartUpActivity";
+public class StartUpActivityTest extends ActivityInstrumentationTestCase2 {
+    private static final String TARGET_PACKAGE_ID = "com.practice.atf";
+    private static final String LAUNCHER_ACTIVITY_FULL_CLASSNAME = "com.practice.atf.StartUpActivity";
     private static Class launcherActivityClass;
 
     static {
@@ -18,7 +17,7 @@ public class RobotiumActivityInstrumentation extends ActivityInstrumentationTest
         }
     }
 
-    public RobotiumActivityInstrumentation() throws ClassNotFoundException {
+    public StartUpActivityTest() throws ClassNotFoundException {
         super(TARGET_PACKAGE_ID, launcherActivityClass);
     }
 

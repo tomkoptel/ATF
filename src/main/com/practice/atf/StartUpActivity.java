@@ -1,4 +1,6 @@
-package com.practice.atf.main;
+package com.practice.atf;
+
+import com.practice.atf.R;
 import android.app.Activity;
 import android.os.Bundle;
 import android.text.Editable;

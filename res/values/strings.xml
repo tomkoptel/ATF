@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="hello">Enter two values and click on Calculate to multiply them.</string>
-    <string name="app_name">AndroidSimpleCalculator</string>
+    <string name="app_name">ATF</string>
     <string name="txtFirstNumber">Enter First Number 1</string>
     <string name="txtSecondNumber">Enter Second Number 2</string>
     <string name="txtSpace"></string>
